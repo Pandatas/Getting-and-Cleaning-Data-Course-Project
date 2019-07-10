@@ -1,15 +1,29 @@
 # Codebook Getting and Cleaning Data Course Project
 
-## Data manipulation
+## Data set
 This code book describes the variables, the data, and any work that has been performed to clean up the data from
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
+This dataset contains the following files:
+
+README.txt (readme file)
+features_info.txt (codebook)
+features.txt (column headers of X_train.txt and X_test.txt)
+activity_labels.txt (links activity_id with activity_type)
+y_train.txt (activity_id training set)
+X_train.txt (data values training set)
+subject_train.txt (subject_id training set)
+y_test.txt (activity_id test set)
+X_test.txt (data values test set)
+subject_test.txt (subject_id test set)
+
+## Data manipulation
 With an R-script called run_analysis.R, following data manipulations were performed:
 1. The training and the test sets were merged to create one data set.
-2. Only the measurements on the mean and standard deviation for each measurement were extracted.
-3. Descriptive activity names were used to name the activities in the data set
-4. Data set was labeled with appropriate labels with descriptive variable names.
+2. Data set was labeled with appropriate labels with descriptive variable names.2. 
+3. Only the measurements on the mean and standard deviation for each measurement were extracted.
+4. Descriptive activity names were used to name the activities in the data set
 5. From the data set in step 4, a second, independent tidy data set was created with the average of each variable for each activity and each  subject.
 
 ## Feature Selection 
