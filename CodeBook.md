@@ -7,16 +7,16 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 This dataset contains the following files:
 
-README.txt (readme file)
-features_info.txt (codebook)
-features.txt (column headers of X_train.txt and X_test.txt)
-activity_labels.txt (links activity_id with activity_type)
-y_train.txt (activity_id training set)
-X_train.txt (data values training set)
-subject_train.txt (subject_id training set)
-y_test.txt (activity_id test set)
-X_test.txt (data values test set)
-subject_test.txt (subject_id test set)
+1. README.txt (readme file)
+2. features_info.txt (codebook)
+3. features.txt (column headers of X_train.txt and X_test.txt)
+4. activity_labels.txt (links activity_id with activity_type)
+5. y_train.txt (activity_id training set)
+6. X_train.txt (data values training set)
+7. subject_train.txt (subject_id training set)
+8. y_test.txt (activity_id test set)
+9. X_test.txt (data values test set)
+10. subject_test.txt (subject_id test set)
 
 ## Data manipulation
 With an R-script called run_analysis.R, following data manipulations were performed:
